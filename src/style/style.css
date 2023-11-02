@@ -1,0 +1,161 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header {
+    max-height: 100px;
+
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo__img {
+    max-width: 250px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-size: 20px;
+    margin-right: 40px;
+
+}
+
+.nav__item_link {
+    text-decoration: none;
+    color: black;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 30%;
+}
+
+.contacts__item_img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.whatsapp {
+    max-width: 30px;
+}
+
+.contacts__item {
+    text-decoration: none;
+    color: black;
+}
+
+.honeycomb__content {
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+}
+
+.honeycomb__img img {
+    max-width: 100%;
+}
+
+.honeycomb__text {
+    line-height: 150%;
+    font-size: 20px;
+}
+
+.honeycomb__price {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.honeycomb__title h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.button {
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: rgb(170, 225, 165);
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.popup {
+
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: -100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.popup_active {
+    top: 0
+}
+
+.popup__body {
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+
+
+}
+
+.popup__descr {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.form_item {
+
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.popup_close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form_input {
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.button_submit {
+    background-color: white;
+}

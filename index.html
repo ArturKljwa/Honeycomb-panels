@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honeycomb panels</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style/normalize.css">
+    <link rel="stylesheet" href="./src/style/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="logo">
+                <a href="" class="logo_link"><img src="./src/image/logo.png" alt="Logo" class="logo__img"></a>
+
+            </div>
+            <ul class="nav">
+                <li class="nav__item"><a href="#" class="nav__item_link">Главная</a></li>
+                <li class="nav__item"><a href="#" class="nav__item_link">Продукция</a></li>
+                <li class="nav__item"><a href="#" class="nav__item_link">О Компании</a></li>
+                <li class="nav__item"><a href="#" class="nav__item_link">Новости</a></li>
+                <li class="nav__item"><a href="#" class="nav__item_link">Контакты</a></li>
+            </ul>
+            <div class="contacts">
+                <a href="mailto:example.com" class="contacts__item">
+                    email: example.com
+                    <!-- <img src="http://s1.iconbird.com/ico/1012/PlexIcons/w512h5121350249248gmail.png" alt="email"
+                        class="contacts__item_img"> -->
+                </a>
+                <a href="viber://chat?number=%2B3753333051743" class="contacts__item">
+                    viber: +375333051743
+                    <!-- <img src="https://it-land.by/wp-content/uploads/2018/10/Viber-logo.png" class="contacts__item_img"
+                        alt="viber"> -->
+                </a>
+                <a href="https://wa.clck.bar/3753333051743" class="contacts__item">
+                    whatsapp: +375333051743
+                    <!-- <img src="https://mhcenter.ru/wp-content/uploads/2020/01/whatsapp-png-whatsapp-logo-transparent-512-300x300.png"
+                        class="contacts__item_img watsapp" alt="whatsapp"> -->
+                </a>
+
+            </div>
+        </div>
+    </header>
+    <section class="honeycomb">
+        <div class="container">
+            <div class="honeycomb__title">
+                <h1>Панели из сотового картона</h1>
+            </div>
+            <div class="honeycomb__content">
+                <div class="honeycomb__img">
+                    <img src="./src/image/sotovye-kartonnye-paneli.jpg" alt="">
+                </div>
+                <div class="honeycomb__descr">
+                    <div class="honeycomb__text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex odit
+                        adipisci
+                        voluptate cupiditate quae? Dignissimos corporis quaerat delectus impedit odit! Suscipit
+                        reprehenderit
+                        dicta officia similique hic voluptatum iusto aut sed!
+                    </div>
+
+                    <div class="honeycomb__price">Стоимость 150$</div>
+
+                    <button class="button"> Купить</button>
+                    <button class="button button_modal">Заказать обратный звонок</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <div class="popup">
+
+
+        <div class="popup__body">
+            <div class="popup_close">X</div>
+            <div class="popup__descr">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </div>
+            <form class="form">
+                <label for="name" class="form_item">
+                    Ваше Имя
+
+                </label>
+                <input type="text" placeholder="" id="name" class="form_input">
+                <label for="phone" class="form_item">
+                    Телефон
+
+                </label>
+                <input type="number" placeholder="" id="phone" class="form_input">
+                <label for="email" class="form_item">
+                    E-mail
+
+                </label>
+                <input type="text" placeholder="" id="email" class="form_input">
+                <button type="submit" class="button button_submit"> Отправить</button>
+            </form>
+        </div>
+    </div>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
